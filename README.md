@@ -1,31 +1,25 @@
 # Nextjs Auth0 Starter
+Implementaion of Auth0 using Provided Nextjs Auth0 SDK
 
-This is a starter project that integrates Auth0 with Next.js so that you can have a solid base to build your web application from.
+### Getting started
+- [X] clone the [repo](https://github.com/PatrickNiyogitare28/nextjs-auth0)
+- [X] run `yarn install` or `npm install`
+- [X] run `yarn dev` or `npm run dev` to start the production server
 
-If you are just interested in the code, feel free to just use the latest commit. If you'd like to see how we get to this point, I posted a Youtube video that shows step-by-step how to add Auth0 to a new Next.js application:
+### Prerequisites
+- [X] signup/signin with [auth)](https://auth0.com/)
+- [X] create an auth app of SINGLE PAGE PROJECT
+- [X] upon auto generated `domain`, `clientId` & `clientSecret` set up your 
+   - redirectUri or callBackUr > e.g: http://localhost:3000/api/callback for development environment
+   - postLogoutUri or logoutUri  > e.g http://localhost:3000/ for development environment
+- [X] create `.env` file at the root of the project
+- [X] populate all env variables with their respective values
+- 
+> Your both remote and local redirectionUri should be the same also the postLogout as well
 
-[How to add Auth0 to Nextjs- the Ultimate Guide](https://www.youtube.com/watch?v=vrj9gCSjzw0)
+### LICENSE 
+[MIT](https://github.com/PatrickNiyogitare28/nextjs-auth0/edit/master/LICENSE.md)
 
-**Features:**
-
-- Next.js 9.3
-- Ant Design
-- Auth0 using the nextjs-auth0 library
-- Typescript
-
-We start with a Typescript Next.js App and add Ant Design so that we have a nice UI layout to work with.
-
-Next we add a layout and a navbar with login, logout, home, and profile buttons.
-
-We utilize the nextjs-auth0 and the wonderful examples that they provide over on their [github page](https://github.com/auth0/nextjs-auth0) to create Next.js api endpoints for login, logout, redirect, and profile (thanks so much auth0!).
-
-Finally, we utilize a react.js provider component to house the user state information which allows us to access whether the user is logged in or not and their profile information.
-
-# How to use this repo
-
-1. Clone this repo onto your computer and check out the `start-here` tag.
-2. Check out the [How to add Auth0 to Nextjs- the Ultimate Guide](https://www.youtube.com/watch?v=vrj9gCSjzw0) youtube video that shows how to add Auth0 to a starter Next.js application. Once finished you'll have a fully working Next.js app with user login and profile management all set up.
-3. ???
-4. Profit!
-
-Check out more related blog posts, courses and videos over at [Codemochi](https://codemochi.com).
+### Author
+- patrickniyogitare28@gmail.com
+- [@niyogitare](https://twitter.com/niyogitare)
